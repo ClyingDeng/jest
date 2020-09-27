@@ -8,3 +8,7 @@ it('测试能否获取用户？', async () => {
     let r = await fetchUser();
     expect(r).toEqual({ name: 'dy' })
 })
+it('测试能否获取用户？', async () => {
+    let r = await fetchList();
+    expect(r).toEqual(['zs','list'])
+})
