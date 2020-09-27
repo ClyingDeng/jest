@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^26.0.13",
+    "axios": "^0.20.0",
     "jest": "^26.4.2"
   },
   "devDependencies": {
